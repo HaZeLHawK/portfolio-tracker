@@ -1,6 +1,6 @@
-package com.example.demo.service;
+package com.example.portfoliotracker.service;
 
-import com.example.demo.entity.Symbol;
+import com.example.portfoliotracker.entity.Symbol;
 
 import java.util.List;
 import java.util.Optional;

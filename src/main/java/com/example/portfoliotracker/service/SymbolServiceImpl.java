@@ -1,9 +1,8 @@
-package com.example.demo.service;
+package com.example.portfoliotracker.service;
 
-import com.example.demo.entity.Symbol;
-import com.example.demo.repository.SymbolRepository;
+import com.example.portfoliotracker.entity.Symbol;
+import com.example.portfoliotracker.repository.SymbolRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

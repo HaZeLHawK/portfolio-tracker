@@ -1,17 +1,14 @@
-package com.example.demo.controller;
+package com.example.portfoliotracker.controller;
 
-import com.example.demo.entity.Symbol;
-import com.example.demo.exception.ResourceNotFoundException;
-import com.example.demo.repository.SymbolRepository;
-import com.example.demo.service.SymbolService;
+import com.example.portfoliotracker.entity.Symbol;
+import com.example.portfoliotracker.exception.ResourceNotFoundException;
+import com.example.portfoliotracker.service.SymbolService;
 import java.util.List;
 import java.util.Optional;
 
 //import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
 import org.springframework.dao.DataAccessException;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.transaction.Transactional;

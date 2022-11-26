@@ -1,10 +1,8 @@
-package com.example.demo.repository;
+package com.example.portfoliotracker.repository;
 
-import com.example.demo.entity.Symbol;
+import com.example.portfoliotracker.entity.Symbol;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
 
 @Repository
 public interface SymbolRepository extends JpaRepository<Symbol, Long> {
